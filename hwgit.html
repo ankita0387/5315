@@ -6,14 +6,84 @@
   <body>
     <div class="container">
       <h1>Homework2 - IS 5315 Sec. #</h1>
-      <h2>What is Docker</h2>
-      <p>Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code. - References: https://opensource.com/resources/what-docker</p>
-      <h2>What is Nginx</h2>
-      <p>Your answer here. - list all sources you used.</p>
-      <h2>What is VM (virtual machine)</h2>
-      <p>Your answer here. - list all sources you used.</p>
-      <h2>Who is Cloud Computing Service Provider - Digitalocean</h2>
-      <p>Your answer here. - list all sources you used.</p>
+      <h2>What is GIT? Why do we need source code Version Control System</h2>
+      <p>Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and IDEs (Integrated Development Environments). Git thinks of its data more like a series of snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a stream of snapshots.
+
+      Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members. 
+
+      In Git, version control is key elements of the system and work flawlessly — for example, creating a branch happens locally and instantly. Depending on the internet connection, the server’s status and other factors, this would’ve taken much longer in a centrally-managed VCS like Subversion. This fast way of working makes it easy to create a quick branch for any ideas you have, so you can later decide if you want to actually add them to the master or throw them out. Git also handles merges much more gracefully than previous systems. Because it uses a different way of recording commit history it’s able to remember everything that has already merged, significantly decreasing the number of conflicts that occur.
+
+      - References: 
+        https://www.atlassian.com/git/tutorials/what-is-git 
+        https://hackernoon.com/how-git-changed-the-history-of-software-version-control-5f2c0a0850df
+      </p>
+
+      <h2>Describe following terms: 1) local repo 2) remote repo 3) how to use GIT in Team Project – multiple developers work on the same project at the same time</h2>
+      <p> 1) Local repo: A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. Git local repository is the one on which we will make local changes, typically this local repository is on our computer. The local repo is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline.  This is one of the key features of a “distributed” version control system (DVCS), locally having the full repository history.
+
+      2) Remote repo: Git refers to the centralized server as a “remote repository”.  The remote repo is usually not on your machine and is the one shared by the team. The team “pushes” commits to it when ready to share with the team. While one of your remote repos could be another team member’s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo. 
+
+      3) How to use GIT in Team Project: Steps to work in a Team Project:
+      a. Setting Up Your Branches
+      Before creating a new branch, make sure you are up to date with the master branch. Simply:
+
+      $ git pull origin master
+      Now, this is where it gets messy. Don’t you ever, ever, ever, ever work on the master branch. Let’s refresh your memories on how to make branches.
+
+      $ git checkout -b branchName
+      Tip: Each branch should be made based on each feature, not page. For example, some branches could be: fbAuth, editUserInfo, addingGulp, etc.
+
+      b. To make the changes exist on GitHub for your team members to see and for you to be able to push to it:
+
+      $ git push --set-upstream origin sameBranchName
+      This will make your branch visible on GitHub to other team members and sets the upstream to push to your specific branch. Double check to make sure your new branch is there by going to your organization on GitHub, then to branches.
+
+      Adding, Committing, and Pushing
+      If you've completed the steps above, you're ready to code on your branch now!
+      You add and commit your files the same way you've always done it when you’re on a branch, but:
+
+      BEFORE YOU EVER COMMIT, MAKE SURE YOU ARE ON YOUR BRANCH, NOT MASTER.
+
+      After you add and commit your files push your changes to your branch on GitHub:
+
+      $ git push origin sameBranchName
+      Now, if you’re ready to make a pull request in order to merge your branch's code with Master, head over to GitHub:
+      Your Organization >> Branches >> Your Branch >> Compare & Pull Request
+
+      c. Merging Master Changes With Your Branch
+      Double check to make sure you are up to date with the master branch. But first, you must commit your changes on your branch. Before applying outside changes, you should get your own work in good shape and committed locally, so it will not be clobbered if there are conflicts.
+
+      # on your branch, git add
+      $ git commit -m “blah"
+      $ git checkout master
+      $ git pull origin master
+      Now, merge your branch with the master. There could possibly be conflicts if you have not been keeping up with the master, but no worries, it’s usually nothing that can’t be fixed in a few minutes [……hopefully].
+
+      $ git checkout branchName
+      $ git merge master
+      If you tried a merge which resulted in complex conflicts and want to start over, you can recover:
+      On your branch
+      $ git merge --abort
+      
+      d. Deleting Branches
+      When you are finished with a feature, and everything has been merged with the master branch via pull request, you should delete your branch associated with that feature locally and on GitHub to keep things clean and organized. You can delete it manually on GitHub by going to the organization then to branches, or you can delete it from GitHub by writing:
+
+      $ git push origin :BranchName
+      The difference from before is simply the colon :
+
+      To delete your branch locally:
+
+      $ git branch -d branchName
+      To FORCE branch deletion locally:
+
+      $ git branch -D branchName
+      Important Reminders:
+      Tell your Team every time a pull request has been merged with master. Don’t let your team members fall behind Master.
+      Pull often, just to be sure. Even if no one has told you about changes on master, pull anyways. It doesn’t hurt.
+      There is a visual of how far behind your branch is from Master on GitHub under Branches.
+      Double check with team members before merging.
+      Make sure you are on a branch before you start coding. Get in the habit of checking.
+      </p>
     </div>
   </body>
 </html>
