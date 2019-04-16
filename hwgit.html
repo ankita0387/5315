@@ -20,45 +20,56 @@
         https://hackernoon.com/how-git-changed-the-history-of-software-version-control-5f2c0a0850df
       </p>
 
-      <h2>Describe following terms: 1) local repo 2) remote repo 3) how to use GIT in Team Project – multiple developers work on the same project at the same time</h2>
-      <p> 1) Local repo: A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. Git local repository is the one on which we will make local changes, typically this local repository is on our computer. The local repo is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline.  This is one of the key features of a “distributed” version control system (DVCS), locally having the full repository history.
+      <h2>Describe following terms: 
       <br>
-      2) Remote repo: Git refers to the centralized server as a “remote repository”.  The remote repo is usually not on your machine and is the one shared by the team. The team “pushes” commits to it when ready to share with the team. While one of your remote repos could be another team member’s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo. 
+      1) local repo
+      <br>
+      2) remote repo
+      <br>
+      3) how to use GIT in Team Project with multiple developers work on the same project at the same time</h2>
+      <br>
+      <p> 1) Local repo: A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. Git local repository is the one on which we will make local changes, typically this local repository is on our computer. The local repo is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline.  This is one of the key features of a distributed version control system (DVCS), locally having the full repository history.
+      <br>
+      2) Remote repo: Git refers to the centralized server as a remote repository. The remote repo is usually not on your machine and is the one shared by the team. The team pushes commits to it when ready to share with the team. While one of your remote repos could be another team member’s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo. 
       <br>
       3) How to use GIT in Team Project: Steps to work in a Team Project:
-      a. Setting Up Your Branches
-      Before creating a new branch, make sure you are up to date with the master branch. Simply:
+      <br>
+      A. Setting Up Your Branches
+      <br>
+      Before creating a new branch, make sure you are up to date with the master branch. 
       <br>
       $ git pull origin master
       <br>
       $ git checkout -b branchName
-      Tip: Each branch should be made based on each feature, not page. 
       <br>
-      b. To make the changes exist on GitHub for your team members to see and for you to be able to push to it:
+      B. To make the changes exist on GitHub for your team members to see and for you to be able to push to it:
       <br>
       $ git push --set-upstream origin sameBranchName
-      This will make your branch visible on GitHub to other team members and sets the upstream to push to your specific branch. Double check to make sure your new branch is there by going to your organization on GitHub, then to branches.
       <br>
-      Adding, Committing, and Pushing
-      If you've completed the steps above, you're ready to code on your branch now!
-      You add and commit your files the same way you've always done it when you’re on a branch, but:
+      This will make your branch visible on GitHub to other team members and sets the upstream to push to your specific branch.
       <br>
-      BEFORE YOU EVER COMMIT, MAKE SURE YOU ARE ON YOUR BRANCH, NOT MASTER.
+      C. Adding, Committing, and Pushing
       <br>
       After you add and commit your files push your changes to your branch on GitHub:
       <br>
+      $ git add <filename>
+      <br>
+      $ git commit -m 'comment'
+      <br>
       $ git push origin sameBranchName
+      <br>
       Now, if you’re ready to make a pull request in order to merge your branch's code with Master, head over to GitHub:
       Your Organization >> Branches >> Your Branch >> Compare & Pull Request
       <br>
-      c. Merging Master Changes With Your Branch
+      D. Merging Master Changes With Your Branch
+      <br>
       Double check to make sure you are up to date with the master branch. But first, you must commit your changes on your branch. Before applying outside changes, you should get your own work in good shape and committed locally, so it will not be clobbered if there are conflicts.
       <br>
       # on your branch, git add
       $ git commit -m “blah"
       $ git checkout master
       $ git pull origin master
-      Now, merge your branch with the master. There could possibly be conflicts if you have not been keeping up with the master, but no worries, it’s usually nothing that can’t be fixed in a few minutes [……hopefully].
+      Now, merge your branch with the master. 
       <br>
       $ git checkout branchName
       $ git merge master
@@ -66,21 +77,26 @@
       On your branch
       $ git merge --abort
       <br> 
-      d. Deleting Branches
+      E. Deleting Branches
+      <br>
       When you are finished with a feature, and everything has been merged with the master branch via pull request, you should delete your branch associated with that feature locally and on GitHub to keep things clean and organized. You can delete it manually on GitHub by going to the organization then to branches, or you can delete it from GitHub by writing:
       <br>
       $ git push origin :BranchName
+      <br>
       The difference from before is simply the colon :
       <br>
       To delete your branch locally:
       <br>
       $ git branch -d branchName
+      <br>
       To FORCE branch deletion locally:
       <br>
       $ git branch -D branchName
       <br>
       - References: 
+      <br>
       https://www.intertech.com/Blog/introduction-to-git-concepts/
+      <br>
       https://gist.github.com/andrewtkemp1/fa8f28e867e17559b931c3f6de9a4b9e
       </p>
     </div>
