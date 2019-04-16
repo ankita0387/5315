@@ -30,7 +30,7 @@
       <br>
       <p> <b>1) Local repo:</b> A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. Git local repository is the one on which we will make local changes, typically this local repository is on our computer. The local repo is on your computer and has all the files and their commit history, enabling full diffs, history review, and committing when offline.  This is one of the key features of a distributed version control system (DVCS), locally having the full repository history.
       <br>
-      2) <b>Remote repo:</b> Git refers to the centralized server as a remote repository. The remote repo is usually not on your machine and is the one shared by the team. The team pushes commits to it when ready to share with the team. While one of your remote repos could be another team member’s local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo. 
+      2) <b>Remote repo:</b> Git refers to the centralized server as a remote repository. The remote repo is usually not on your machine and is the one shared by the team. The team pushes commits to it when ready to share with the team. While one of your remote repos could be another team members local repo, in a corporate environment at least one (or the only!) is typically a Git repo on a server anointed as the central/official repo. 
       <br>
       3) <b>How to use GIT in Team Project: Steps to work in a Team Project:</b>
       <br>
@@ -66,12 +66,17 @@
       Double check to make sure you are up to date with the master branch. But first, you must commit your changes on your branch. Before applying outside changes, you should get your own work in good shape and committed locally, so it will not be clobbered if there are conflicts.
       <br>
       # on your branch, git add
-      $ git commit -m “blah"
+      <br>
+      $ git commit -m 'comment'
+      <br>
       $ git checkout master
+      <br>
       $ git pull origin master
+      <br>
       Now, merge your branch with the master. 
       <br>
       $ git checkout branchName
+      <br>
       $ git merge master
       If you tried a merge which resulted in complex conflicts and want to start over, you can recover:
       On your branch
