@@ -9,4 +9,22 @@
       <categoryid>2</categoryid>
       <categorydescription>Bikes</categorydescription>
     </data>
+    <data>
+      <productnumber>102</productnumber>
+      <productname>Eagle FS-3 Mountain Bike</productname>
+      <retailprice>$1800</retailprice>
+      <quantityonhand>8</quantityonhand>
+      <manufacturingdate>2018/09/01</manufacturingdate>
+      <categoryid>2</categoryid>
+      <categorydescription>Bikes</categorydescription>
+    </data>
+    <data>
+      <productnumber>103</productnumber>
+      <productname>Dog Ear Cyclecomputer</productname>
+      <retailprice>$75</retailprice>
+      <quantityonhand>20</quantityonhand>
+      <manufacturingdate>2017/04/22</manufacturingdate>
+      <categoryid>1</categoryid>
+      <categorydescription>Accessories</categorydescription>
+    </data>
   </Product>
