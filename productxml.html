@@ -18,13 +18,13 @@
             success: function(xml) {  
              $(xml).find('data').each(function(){  
               t.row.add( [
-                $(this).find('ProductNumber').text(),
-                $(this).find('ProductName').text(),
-                $(this).find('RetailPrice').text(),
-                $(this).find('QuantityOnHand').text(),
-                $(this).find('ManufacturingDate').text(),
-                $(this).find('CategoryID').text(),
-                $(this).find('CategoryDescription').text()
+                $(this).find('productnumber').text(),
+                $(this).find('productname').text(),
+                $(this).find('retailprice').text(),
+                $(this).find('quantityonhand').text(),
+                $(this).find('manufacturingdate').text(),
+                $(this).find('categoryid').text(),
+                $(this).find('categorydescription').text()
               ] ).draw( false );
              });
             }
