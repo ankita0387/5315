@@ -117,4 +117,22 @@
       <categoryid>6</categoryid>
       <categorydescription>Tires</categorydescription>
     </data>
+    <data>
+      <productnumber>114</productnumber>
+      <productname>Cosmic Elite Road Warrior Wheels</productname>
+      <retailprice>$165</retailprice>
+      <quantityonhand>22</quantityonhand>
+      <manufacturingdate>2016/05/07</manufacturingdate>
+      <categoryid>4</categoryid>
+      <categorydescription>Components</categorydescription>
+    </data>
+    <data>
+      <productnumber>115</productnumber>
+      <productname>Road Warrior Hitch Pack</productname>
+      <retailprice>$175</retailprice>
+      <quantityonhand>8</quantityonhand>
+      <manufacturingdate>2017/09/26</manufacturingdate>
+      <categoryid>5</categoryid>
+      <categorydescription>Car Racks</categorydescription>
+    </data>
   </Product>
