@@ -27,4 +27,22 @@
       <categoryid>1</categoryid>
       <categorydescription>Accessories</categorydescription>
     </data>
+    <data>
+      <productnumber>104</productnumber>
+      <productname>Victoria Pro All Weather Tires</productname>
+      <retailprice>$54</retailprice>
+      <quantityonhand>20</quantityonhand>
+      <manufacturingdate>2017/06/01</manufacturingdate>
+      <categoryid>4</categoryid>
+      <categorydescription>Components</categorydescription>
+    </data>
+    <data>
+      <productnumber>105</productnumber>
+      <productname>Dog Ear Helmet Mount Mirrors</productname>
+      <retailprice>$8</retailprice>
+      <quantityonhand>12</quantityonhand>
+      <manufacturingdate>2014/05/22</manufacturingdate>
+      <categoryid>1</categoryid>
+      <categorydescription>Accessories</categorydescription>
+    </data>
   </Product>
