@@ -99,4 +99,22 @@
       <categoryid>3</categoryid>
       <categorydescription>Clothing</categorydescription>
     </data>
+    <data>
+      <productnumber>112</productnumber>
+      <productname>X-Pro All Weather Tires</productname>
+      <retailprice>$24</retailprice>
+      <quantityonhand>20</quantityonhand>
+      <manufacturingdate>2017/07/08</manufacturingdate>
+      <categoryid>6</categoryid>
+      <categorydescription>Tires</categorydescription>
+    </data>
+    <data>
+      <productnumber>113</productnumber>
+      <productname>Turbo Twin Tires</productname>
+      <retailprice>$29</retailprice>
+      <quantityonhand>16</quantityonhand>
+      <manufacturingdate>2017/08/31</manufacturingdate>
+      <categoryid>6</categoryid>
+      <categorydescription>Tires</categorydescription>
+    </data>
   </Product>
