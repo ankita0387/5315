@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <Product>
     <data>
-      <productnumber>101</categoryid>
+      <productnumber>101</productnumber>
       <productname>Trek 9000 Mountain Bike</productname>
       <retailprice>$1200</retailprice>
       <quantityonhand>6</quantityonhand>
