@@ -72,4 +72,31 @@
       <categoryid>1</categoryid>
       <categorydescription>Accessories</categorydescription>
     </data>
+    <data>
+      <productnumber>109</productnumber>
+      <productname>Nikoma Lok-Tight U-Lock</productname>
+      <retailprice>$33</retailprice>
+      <quantityonhand>12</quantityonhand>
+      <manufacturingdate>2017/06/01</manufacturingdate>
+      <categoryid>1</categoryid>
+      <categorydescription>Accessories</categorydescription>
+    </data>
+    <data>
+      <productnumber>110</productnumber>
+      <productname>Ultra-Pro Rain Jacket</productname>
+      <retailprice>$85</retailprice>
+      <quantityonhand>30</quantityonhand>
+      <manufacturingdate>2018/01/03</manufacturingdate>
+      <categoryid>3</categoryid>
+      <categorydescription>Clothing</categorydescription>
+    </data>
+    <data>
+      <productnumber>111</productnumber>
+      <productname>StaDry Cycling Pants</productname>
+      <retailprice>$69</retailprice>
+      <quantityonhand>8</quantityonhand>
+      <manufacturingdate>2016/05/20</manufacturingdate>
+      <categoryid>3</categoryid>
+      <categorydescription>Clothing</categorydescription>
+    </data>
   </Product>
