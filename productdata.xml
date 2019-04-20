@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+  <ProductTable>
     <data>
       <ProductNumber>101</ProductNumber>
       <ProductName>Trek 9000 Mountain Bike</ProductName>
@@ -134,3 +135,4 @@
       <CategoryID>5</CategoryID>
       <CategoryDescription>Car Racks</CategoryDescription>
     </data>
+  </ProductTable>
