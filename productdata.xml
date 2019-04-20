@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <products>
+    <data>
+      <ProductNumber>101</ProductNumber>
+      <ProductName>Trek 9000 Mountain Bike</ProductName>
+      <RetailPrice>$1200</RetailPrice>
+      <QuantityOnHand>6</QuantityOnHand>
+      <ManufacturingDate>2018/07/25</ManufacturingDate>
+      <CategoryID>2</CategoryID>
+      <CategoryDescription>Bikes</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>102</ProductNumber>
+      <ProductName>Eagle FS-3 Mountain Bike</ProductName>
+      <RetailPrice>$1800</RetailPrice>
+      <QuantityOnHand>8</QuantityOnHand>
+      <ManufacturingDate>2018/09/01</ManufacturingDate>
+      <CategoryID>2</CategoryID>
+      <CategoryDescription>Bikes</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>103</ProductNumber>
+      <ProductName>Dog Ear Cyclecomputer</ProductName>
+      <RetailPrice>$75</RetailPrice>
+      <QuantityOnHand>20</QuantityOnHand>
+      <ManufacturingDate>2017/04/22</ManufacturingDate>
+      <CategoryID>1</CategoryID>
+      <CategoryDescription>Accessories</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>104</ProductNumber>
+      <ProductName>Victoria Pro All Weather Tires</ProductName>
+      <RetailPrice>$54</RetailPrice>
+      <QuantityOnHand>20</QuantityOnHand>
+      <ManufacturingDate>2017/06/01</ManufacturingDate>
+      <CategoryID>4</CategoryID>
+      <CategoryDescription>Components</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>105</ProductNumber>
+      <ProductName>Dog Ear Helmet Mount Mirrors</ProductName>
+      <RetailPrice>$8</RetailPrice>
+      <QuantityOnHand>12</QuantityOnHand>
+      <ManufacturingDate>2014/05/22</ManufacturingDate>
+      <CategoryID>1</CategoryID>
+      <CategoryDescription>Accessories</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>106</ProductNumber>
+      <ProductName>Viscount Mountain Bike</ProductName>
+      <RetailPrice>$635</RetailPrice>
+      <QuantityOnHand>5</QuantityOnHand>
+      <ManufacturingDate>2016/03/31</ManufacturingDate>
+      <CategoryID>2</CategoryID>
+      <CategoryDescription>Bikes</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>107</ProductNumber>
+      <ProductName>Viscount C-500 Wireless Bike Computer</ProductName>
+      <RetailPrice>$49</RetailPrice>
+      <QuantityOnHand>30</QuantityOnHand>
+      <ManufacturingDate>2019/01/30</ManufacturingDate>
+      <CategoryID>1</CategoryID>
+      <CategoryDescription>Accessories</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>108</ProductNumber>
+      <ProductName>Kryptonite Advanced 2000 U-Lock</ProductName>
+      <RetailPrice>$50</RetailPrice>
+      <QuantityOnHand>20</QuantityOnHand>
+      <ManufacturingDate>2017/09/01</ManufacturingDate>
+      <CategoryID>1</CategoryID>
+      <CategoryDescription>Accessories</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>109</ProductNumber>
+      <ProductName>Nikoma Lok-Tight U-Lock</ProductName>
+      <RetailPrice>$33</RetailPrice>
+      <QuantityOnHand>12</QuantityOnHand>
+      <ManufacturingDate>2017/06/01</ManufacturingDate>
+      <CategoryID>1</CategoryID>
+      <CategoryDescription>Accessories</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>110</ProductNumber>
+      <ProductName>Ultra-Pro Rain Jacket</ProductName>
+      <RetailPrice>$85</RetailPrice>
+      <QuantityOnHand>30</QuantityOnHand>
+      <ManufacturingDate>2018/01/03</ManufacturingDate>
+      <CategoryID>3</CategoryID>
+      <CategoryDescription>Clothing</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>111</ProductNumber>
+      <ProductName>StaDry Cycling Pants</ProductName>
+      <RetailPrice>$69</RetailPrice>
+      <QuantityOnHand>8</QuantityOnHand>
+      <ManufacturingDate>2016/05/20</ManufacturingDate>
+      <CategoryID>3</CategoryID>
+      <CategoryDescription>Clothing</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>112</ProductNumber>
+      <ProductNamet>X-Pro All Weather Tires</ProductName>
+      <RetailPrice>$24</RetailPrice>
+      <QuantityOnHand>20</QuantityOnHand>
+      <ManufacturingDate>2017/07/08</ManufacturingDate>
+      <CategoryID>6</CategoryID>
+      <CategoryDescription>Tires</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>113</ProductNumber>
+      <ProductName>Turbo Twin Tires</ProductName>
+      <RetailPrice>$29</RetailPrice>
+      <QuantityOnHand>16</QuantityOnHand>
+      <ManufacturingDate>2017/08/31</ManufacturingDate>
+      <CategoryID>6</CategoryID>
+      <CategoryDescription>Tires</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>114</ProductNumber>
+      <ProductName>Cosmic Elite Road Warrior Wheels</ProductName>
+      <RetailPrice>$165</RetailPrice>
+      <QuantityOnHand>22</QuantityOnHand>
+      <ManufacturingDate>2016/05/07</ManufacturingDate>
+      <CategoryID>4</CategoryID>
+      <CategoryDescription>Components</CategoryDescription>
+    </data>
+    <data>
+      <ProductNumber>115</ProductNumber>
+      <ProductName>Road Warrior Hitch Pack</ProductName>
+      <RetailPrice>$175</RetailPrice>
+      <QuantityOnHand>8</QuantityOnHand>
+      <ManufacturingDate>2017/09/26</ManufacturingDate>
+      <CategoryID>5</CategoryID>
+      <CategoryDescription>Car Racks</CategoryDescription>
+    </data>
+  </products>

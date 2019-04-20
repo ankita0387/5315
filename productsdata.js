@@ -3,7 +3,7 @@
     {
       "ProductNumber": "101",
       "ProductName": "Trek 9000 Mountain Bike",
-      "RetailPrice": "1200",
+      "RetailPrice": "$1200",
       "QuantityOnHand": "6",
       "ManufacturingDate": "2018/07/25",
       "CategoryID": "2",
@@ -12,7 +12,7 @@
     {
       "ProductNumber": "102",
       "ProductName": "Eagle FS-3 Mountain Bike",
-      "RetailPrice": "1800",
+      "RetailPrice": "$1800",
       "QuantityOnHand": "8",
       "ManufacturingDate": "2018/09/01",
       "CategoryID": "2",
@@ -21,7 +21,7 @@
     {
       "ProductNumber": "103",
       "ProductName": "Dog Ear Cyclecomputer",
-      "RetailPrice": "75",
+      "RetailPrice": "$75",
       "QuantityOnHand": "20",
       "ManufacturingDate": "2017/04/22",
       "CategoryID": "1",
@@ -30,7 +30,7 @@
     {
       "ProductNumber": "104",
       "ProductName": "Victoria Pro All Weather Tires",
-      "RetailPrice": "54",
+      "RetailPrice": "$54",
       "QuantityOnHand": "20",
       "ManufacturingDate": "2017/06/01",
       "CategoryID": "4",
@@ -39,7 +39,7 @@
     {
       "ProductNumber": "105",
       "ProductName": "Dog Ear Helmet Mount Mirrors",
-      "RetailPrice": "8",
+      "RetailPrice": "$8",
       "QuantityOnHand": "12",
       "ManufacturingDate": "2014/05/22",
       "CategoryID": "1",
@@ -48,7 +48,7 @@
     {
       "ProductNumber": "106",
       "ProductName": "Viscount Mountain Bike",
-      "RetailPrice": "635",
+      "RetailPrice": "$635",
       "QuantityOnHand": "5",
       "ManufacturingDate": "2016/03/31",
       "CategoryID": "2",
@@ -57,7 +57,7 @@
     {
       "ProductNumber": "107",
       "ProductName": "Viscount C-500 Wireless Bike Computer",
-      "RetailPrice": "49",
+      "RetailPrice": "$49",
       "QuantityOnHand": "30",
       "ManufacturingDate": "2019/01/30",
       "CategoryID": "1",
@@ -66,7 +66,7 @@
     {
       "ProductNumber": "108",
       "ProductName": "Kryptonite Advanced 2000 U-Lock",
-      "RetailPrice": "50",
+      "RetailPrice": "$50",
       "QuantityOnHand": "20",
       "ManufacturingDate": "2017/09/01",
       "CategoryID": "1",
@@ -75,7 +75,7 @@
     {
       "ProductNumber": "109",
       "ProductName": "Nikoma Lok-Tight U-Lock",
-      "RetailPrice": "33",
+      "RetailPrice": "$33",
       "QuantityOnHand": "12",
       "ManufacturingDate": "2017/06/01",
       "CategoryID": "1",
@@ -84,7 +84,7 @@
     {
       "ProductNumber": "110",
       "ProductName": "Ultra-Pro Rain Jacket",
-      "RetailPrice": "85",
+      "RetailPrice": "$85",
       "QuantityOnHand": "30",
       "ManufacturingDate": "2018/01/03",
       "CategoryID": "3",
@@ -93,7 +93,7 @@
     {
       "ProductNumber": "111",
       "ProductName": "StaDry Cycling Pants",
-      "RetailPrice": "69",
+      "RetailPrice": "$69",
       "QuantityOnHand": "8",
       "ManufacturingDate": "2016/05/20",
       "CategoryID": "3",
@@ -102,7 +102,7 @@
     {
       "ProductNumber": "112",
       "ProductName": "X-Pro All Weather Tires",
-      "RetailPrice": "24",
+      "RetailPrice": "$24",
       "QuantityOnHand": "20",
       "ManufacturingDate": "2017/07/08",
       "CategoryID": "6",
@@ -111,7 +111,7 @@
     {
       "ProductNumber": "113",
       "ProductName": "Turbo Twin Tires",
-      "RetailPrice": "29",
+      "RetailPrice": "$29",
       "QuantityOnHand": "16",
       "ManufacturingDate": "2017/08/31",
       "CategoryID": "6",
@@ -120,7 +120,7 @@
     {
       "ProductNumber": "114",
       "ProductName": "Cosmic Elite Road Warrior Wheels",
-      "RetailPrice": "165",
+      "RetailPrice": "$165",
       "QuantityOnHand": "22",
       "ManufacturingDate": "2016/05/07",
       "CategoryID": "4",
@@ -129,7 +129,7 @@
     {
       "ProductNumber": "115",
       "ProductName": "Road Warrior Hitch Pack",
-      "RetailPrice": "175",
+      "RetailPrice": "$175",
       "QuantityOnHand": "8",
       "ManufacturingDate": "2017/09/26",
       "CategoryID": "5",
