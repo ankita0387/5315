@@ -45,4 +45,31 @@
       <categoryid>1</categoryid>
       <categorydescription>Accessories</categorydescription>
     </data>
+    <data>
+      <productnumber>106</productnumber>
+      <productname>Viscount Mountain Bike</productname>
+      <retailprice>$635</retailprice>
+      <quantityonhand>5</quantityonhand>
+      <manufacturingdate>2016/03/31</manufacturingdate>
+      <categoryid>2</categoryid>
+      <categorydescription>Bikes</categorydescription>
+    </data>
+    <data>
+      <productnumber>107</productnumber>
+      <productname>Viscount C-500 Wireless Bike Computer</productname>
+      <retailprice>$49</retailprice>
+      <quantityonhand>30</quantityonhand>
+      <manufacturingdate>2019/01/30</manufacturingdate>
+      <categoryid>1</categoryid>
+      <categorydescription>Accessories</categorydescription>
+    </data>
+    <data>
+      <productnumber>108</productnumber>
+      <productname>Kryptonite Advanced 2000 U-Lock</productname>
+      <retailprice>$50</retailprice>
+      <quantityonhand>20</quantityonhand>
+      <manufacturingdate>2017/09/01</manufacturingdate>
+      <categoryid>1</categoryid>
+      <categorydescription>Accessories</categorydescription>
+    </data>
   </Product>
